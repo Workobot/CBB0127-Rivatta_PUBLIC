@@ -6,13 +6,13 @@ FBXHeaderExtension:  {
 	FBXVersion: 7700
 	CreationTimeStamp:  {
 		Version: 1000
-		Year: 2025
-		Month: 8
-		Day: 11
-		Hour: 14
-		Minute: 2
-		Second: 28
-		Millisecond: 648
+		Year: 2026
+		Month: 3
+		Day: 17
+		Hour: 12
+		Minute: 21
+		Second: 45
+		Millisecond: 947
 	}
 	Creator: "FBX SDK/FBX Plugins version 2020.3.4"
 	OtherFlags:  {
@@ -31,18 +31,16 @@ FBXHeaderExtension:  {
 			Comment: ""
 		}
 		Properties70:  {
-			P: "DocumentUrl", "KString", "Url", "", "C:\Workobot\WKT001-PropsLibrary_HD\PropsLibrary_HD\Assets\gobice75_Rivatta_Dummy_Urb.fbx"
-			P: "SrcDocumentUrl", "KString", "Url", "", "C:\Workobot\WKT001-PropsLibrary_HD\PropsLibrary_HD\Assets\gobice75_Rivatta_Dummy_Urb.fbx"
 			P: "Original", "Compound", "", ""
 			P: "Original|ApplicationVendor", "KString", "", "", ""
 			P: "Original|ApplicationName", "KString", "", "", "Unity FBX Exporter"
-			P: "Original|ApplicationVersion", "KString", "", "", "5.1.1"
+			P: "Original|ApplicationVersion", "KString", "", "", "5.1.3"
 			P: "Original|DateTime_GMT", "DateTime", "", "", ""
 			P: "Original|FileName", "KString", "", "", ""
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", ""
 			P: "LastSaved|ApplicationName", "KString", "", "", "Unity FBX Exporter"
-			P: "LastSaved|ApplicationVersion", "KString", "", "", "5.1.1"
+			P: "LastSaved|ApplicationVersion", "KString", "", "", "5.1.3"
 			P: "LastSaved|DateTime_GMT", "DateTime", "", "", ""
 		}
 	}
@@ -78,7 +76,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 2318601307008, "Scene", "Scene" {
+	Document: 1720181144736, "Scene", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", ""
@@ -98,12 +96,12 @@ References:  {
 
 Definitions:  {
 	Version: 100
-	Count: 6
+	Count: 7
 	ObjectType: "GlobalSettings" {
 		Count: 1
 	}
 	ObjectType: "Model" {
-		Count: 3
+		Count: 4
 		PropertyTemplate: "FbxNode" {
 			Properties70:  {
 				P: "QuaternionInterpolate", "enum", "", "",0
@@ -223,7 +221,7 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 2323899099248, "Geometry::Scene", "Mesh" {
+	Geometry: 1703411156016, "Geometry::Scene", "Mesh" {
 		Vertices: *24 {
 			a: -50,-50,50,50,-50,50,-50,50,50,50,50,50,-50,50,-50,50,50,-50,-50,-50,-50,50,-50,-50
 		} 
@@ -332,7 +330,7 @@ Objects:  {
 			}
 		}
 	}
-	Model: 2315981097824, "Model::Rivatta_Dummy_Urb", "Null" {
+	Model: 1716107442096, "Model::Rivatta_Dummy_Urb", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationOrder", "enum", "", "",4
@@ -343,7 +341,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 2315981083824, "Model::Cube", "Mesh" {
+	Model: 1716107480096, "Model::Cube", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "RotationOrder", "enum", "", "",4
@@ -358,7 +356,7 @@ Objects:  {
 		Shading: W
 		Culling: "CullingOff"
 	}
-	Model: 2315981111824, "Model::Cube__1_", "Mesh" {
+	Model: 1716107488096, "Model::Cube__1_", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "RotationOrder", "enum", "", "",4
@@ -366,14 +364,29 @@ Objects:  {
 			P: "InheritType", "enum", "", "",1
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
 			P: "DefaultAttributeIndex", "int", "Integer", "",0
-			P: "Lcl Translation", "Lcl Translation", "", "A",-19010.0006103516,2745.31002044678,50729.9987792969
+			P: "Lcl Translation", "Lcl Translation", "", "A",-19294.0093994141,2745.31002044678,51277.4475097656
 			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-121.5,0
-			P: "Lcl Scaling", "Lcl Scaling", "", "A",42.5701637268066,49.9265327453613,16.8003120422363
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",54.8729438781738,49.9265327453613,17.6772880554199
 		}
 		Shading: W
 		Culling: "CullingOff"
 	}
-	Material: 2317347072752, "Material::DefaultHDMaterial", "" {
+	Model: 1716107490096, "Model::Cube__2_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-19083.0902099609,3016.53995513916,50849.2706298828
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-121.5,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",45.3689498901367,55.3535499572754,16.8003120422363
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Material: 1706900567296, "Material::DefaultHDMaterial", "" {
 		Version: 102
 		ShadingModel: "lambert"
 		MultiLayer: 0
@@ -395,25 +408,34 @@ Objects:  {
 Connections:  {
 	
 	;Model::Rivatta_Dummy_Urb, Model::RootNode
-	C: "OO",2315981097824,0
+	C: "OO",1716107442096,0
 	
 	;Model::Cube, Model::Rivatta_Dummy_Urb
-	C: "OO",2315981083824,2315981097824
+	C: "OO",1716107480096,1716107442096
 	
 	;Model::Cube__1_, Model::Rivatta_Dummy_Urb
-	C: "OO",2315981111824,2315981097824
+	C: "OO",1716107488096,1716107442096
+	
+	;Model::Cube__2_, Model::Rivatta_Dummy_Urb
+	C: "OO",1716107490096,1716107442096
 	
 	;Material::DefaultHDMaterial, Model::Cube
-	C: "OO",2317347072752,2315981083824
+	C: "OO",1706900567296,1716107480096
 	
 	;Geometry::Scene, Model::Cube
-	C: "OO",2323899099248,2315981083824
+	C: "OO",1703411156016,1716107480096
 	
 	;Material::DefaultHDMaterial, Model::Cube__1_
-	C: "OO",2317347072752,2315981111824
+	C: "OO",1706900567296,1716107488096
 	
 	;Geometry::Scene, Model::Cube__1_
-	C: "OO",2323899099248,2315981111824
+	C: "OO",1703411156016,1716107488096
+	
+	;Material::DefaultHDMaterial, Model::Cube__2_
+	C: "OO",1706900567296,1716107490096
+	
+	;Geometry::Scene, Model::Cube__2_
+	C: "OO",1703411156016,1716107490096
 }
 ;Takes section
 ;----------------------------------------------------
